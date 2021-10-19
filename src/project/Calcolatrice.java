@@ -23,7 +23,7 @@ public class Calcolatrice extends Application{
 	private static final int HEIGTHWINDOW = 400;
 	
 	private TextField display = new TextField("");
-	private String OPERATION = "";
+	private String operation = "";
 	private String OP1 = "";
 	private String OP2 = "";
 	private String SYMBOL = "";
@@ -132,13 +132,13 @@ public class Calcolatrice extends Application{
 			
 			@Override
 			public void handle(ActionEvent event) {
-				if(RESULT || OPERATION.equals(ERROR)) {
-					OPERATION = "";
+				if(RESULT || operation.equals(ERROR)) {
+					operation = "";
 					OP1 = String.valueOf(NUMBER0);
 					OP2 = "";
 					RESULT = false;
 					SYMBOL = "";
-					display.setText(OPERATION);
+					display.setText(operation);
 				}
 				else {
 					if(SYMBOL.equals("")) {
@@ -149,8 +149,8 @@ public class Calcolatrice extends Application{
 					}
 				}
 				
-				OPERATION += NUMBER0;
-				display.setText(OPERATION);
+				operation += NUMBER0;
+				display.setText(operation);
 			}
 		});
 		
@@ -158,13 +158,13 @@ public class Calcolatrice extends Application{
 			
 			@Override
 			public void handle(ActionEvent event) {
-				if(RESULT || OPERATION.equals(ERROR)) {
-					OPERATION = "";
+				if(RESULT || operation.equals(ERROR)) {
+					operation = "";
 					OP1 = String.valueOf(NUMBER1);
 					OP2 = "";
 					RESULT = false;
 					SYMBOL = "";
-					display.setText(OPERATION);
+					display.setText(operation);
 				}
 				else {
 					if(SYMBOL.equals("")) {
@@ -175,8 +175,8 @@ public class Calcolatrice extends Application{
 					}
 				}
 				
-				OPERATION += NUMBER1;
-				display.setText(OPERATION);
+				operation += NUMBER1;
+				display.setText(operation);
 			}
 		});
 		
@@ -184,13 +184,13 @@ public class Calcolatrice extends Application{
 			
 			@Override
 			public void handle(ActionEvent event) {
-				if(RESULT || OPERATION.equals(ERROR)) {
-					OPERATION = "";
+				if(RESULT || operation.equals(ERROR)) {
+					operation = "";
 					OP1 = String.valueOf(NUMBER2);
 					OP2 = "";
 					RESULT = false;
 					SYMBOL = "";
-					display.setText(OPERATION);
+					display.setText(operation);
 				}
 				else {
 					if(SYMBOL.equals("")) {
@@ -201,8 +201,8 @@ public class Calcolatrice extends Application{
 					}
 				}
 				
-				OPERATION += NUMBER2;
-				display.setText(OPERATION);
+				operation += NUMBER2;
+				display.setText(operation);
 			}
 		});
 		
@@ -210,13 +210,13 @@ public class Calcolatrice extends Application{
 			
 			@Override
 			public void handle(ActionEvent event) {
-				if(RESULT || OPERATION.equals(ERROR)) {
-					OPERATION = "";
+				if(RESULT || operation.equals(ERROR)) {
+					operation = "";
 					OP1 = String.valueOf(NUMBER3);
 					OP2 = "";
 					RESULT = false;
 					SYMBOL = "";
-					display.setText(OPERATION);
+					display.setText(operation);
 				}
 				else {
 					if(SYMBOL.equals("")) {
@@ -227,8 +227,8 @@ public class Calcolatrice extends Application{
 					}
 				}
 				
-				OPERATION += "3";
-				display.setText(OPERATION);
+				operation += "3";
+				display.setText(operation);
 			}
 		});
 		
@@ -236,13 +236,13 @@ public class Calcolatrice extends Application{
 			
 			@Override
 			public void handle(ActionEvent event) {
-				if(RESULT || OPERATION.equals(ERROR)) {
-					OPERATION = "";
+				if(RESULT || operation.equals(ERROR)) {
+					operation = "";
 					OP1 = String.valueOf(NUMBER4);
 					OP2 = "";
 					RESULT = false;
 					SYMBOL = "";
-					display.setText(OPERATION);
+					display.setText(operation);
 				}
 				else {
 					if(SYMBOL.equals("")) {
@@ -253,8 +253,8 @@ public class Calcolatrice extends Application{
 					}
 				}
 				
-				OPERATION += "4";
-				display.setText(OPERATION);
+				operation += "4";
+				display.setText(operation);
 			}
 		});
 		
@@ -262,13 +262,13 @@ public class Calcolatrice extends Application{
 			
 			@Override
 			public void handle(ActionEvent event) {
-				if(RESULT || OPERATION.equals(ERROR)) {
-					OPERATION = "";
+				if(RESULT || operation.equals(ERROR)) {
+					operation = "";
 					OP1 = String.valueOf(NUMBER5);
 					OP2 = "";
 					RESULT = false;
 					SYMBOL = "";
-					display.setText(OPERATION);
+					display.setText(operation);
 				}
 				else {
 					if(SYMBOL.equals("")) {
@@ -279,8 +279,8 @@ public class Calcolatrice extends Application{
 					}
 				}
 				
-				OPERATION += "5";
-				display.setText(OPERATION);
+				operation += "5";
+				display.setText(operation);
 			}
 		});
 		
@@ -288,13 +288,13 @@ public class Calcolatrice extends Application{
 			
 			@Override
 			public void handle(ActionEvent event) {
-				if(RESULT || OPERATION.equals(ERROR)) {
-					OPERATION = "";
+				if(RESULT || operation.equals(ERROR)) {
+					operation = "";
 					OP1 = String.valueOf(NUMBER6);
 					OP2 = "";
 					RESULT = false;
 					SYMBOL = "";
-					display.setText(OPERATION);
+					display.setText(operation);
 				}
 				else {
 					if(SYMBOL.equals("")) {
@@ -305,8 +305,8 @@ public class Calcolatrice extends Application{
 					}
 				}
 				
-				OPERATION += "6";
-				display.setText(OPERATION);
+				operation += "6";
+				display.setText(operation);
 			}
 		});
 		
@@ -314,13 +314,13 @@ public class Calcolatrice extends Application{
 			
 			@Override
 			public void handle(ActionEvent event) {
-				if(RESULT || OPERATION.equals(ERROR)) {
-					OPERATION = "";
+				if(RESULT || operation.equals(ERROR)) {
+					operation = "";
 					OP1 = String.valueOf(NUMBER7);
 					OP2 = "";
 					RESULT = false;
 					SYMBOL = "";
-					display.setText(OPERATION);
+					display.setText(operation);
 				}
 				else {
 					if(SYMBOL.equals("")) {
@@ -330,8 +330,8 @@ public class Calcolatrice extends Application{
 						OP2 += NUMBER7;
 					}
 				}
-				OPERATION += "7";
-				display.setText(OPERATION);
+				operation += "7";
+				display.setText(operation);
 			}
 		});
 		
@@ -339,13 +339,13 @@ public class Calcolatrice extends Application{
 			
 			@Override
 			public void handle(ActionEvent event) {
-				if(RESULT || OPERATION.equals(ERROR)) {
-					OPERATION = "";
+				if(RESULT || operation.equals(ERROR)) {
+					operation = "";
 					OP1 = String.valueOf(NUMBER8);
 					OP2 = "";
 					RESULT = false;
 					SYMBOL = "";
-					display.setText(OPERATION);
+					display.setText(operation);
 				}
 				else {
 					if(SYMBOL.equals("")) {
@@ -356,8 +356,8 @@ public class Calcolatrice extends Application{
 					}
 				}
 				
-				OPERATION += "8";
-				display.setText(OPERATION);
+				operation += "8";
+				display.setText(operation);
 			}
 		});
 		
@@ -365,13 +365,13 @@ public class Calcolatrice extends Application{
 			
 			@Override
 			public void handle(ActionEvent event) {
-				if(RESULT || OPERATION.equals(ERROR)) {
-					OPERATION = "";
+				if(RESULT || operation.equals(ERROR)) {
+					operation = "";
 					OP1 = String.valueOf(NUMBER9);
 					OP2 = "";
 					RESULT = false;
 					SYMBOL = "";
-					display.setText(OPERATION);
+					display.setText(operation);
 				}
 				else {
 					if(SYMBOL.equals("")) {
@@ -381,8 +381,8 @@ public class Calcolatrice extends Application{
 						OP2 += NUMBER9;
 					}
 				}
-				OPERATION += "9";
-				display.setText(OPERATION);
+				operation += "9";
+				display.setText(operation);
 			}
 		});
 		
@@ -396,8 +396,8 @@ public class Calcolatrice extends Application{
 				else {
 					OP2 += ".";
 				}
-				OPERATION += ".";
-				display.setText(OPERATION);
+				operation += ".";
+				display.setText(operation);
 			}
 		});
 		
@@ -423,18 +423,18 @@ public class Calcolatrice extends Application{
 					else if(SYMBOL.equals("^")) {
 						display.setText(exp(Double.valueOf(OP1), Double.valueOf(OP2)));
 					}
-					OPERATION = display.getText();
-					OP1 = OPERATION;
+					operation = display.getText();
+					OP1 = operation;
 				}
 				else if(OP1.equals("") && !OP2.equals("") && SYMBOL.equals("√")) {
 					display.setText(radq(Double.valueOf(OP2)));
-					OPERATION = display.getText();
-					OP2 = OPERATION;
+					operation = display.getText();
+					OP2 = operation;
 				}
 				else {
-					OPERATION = ERROR;
+					operation = ERROR;
 				}
-				display.setText(OPERATION);
+				display.setText(operation);
 			}
 		});
 		
@@ -443,17 +443,17 @@ public class Calcolatrice extends Application{
 			@Override
 			public void handle(ActionEvent event) {
 				if(SYMBOL.equals("")) {
-					OPERATION += "+";
+					operation += "+";
 					SYMBOL = "+";
 				}
 				else {
-					OPERATION = OPERATION.substring(0, OPERATION.length());
-					OPERATION += "+";
+					operation = operation.substring(0, operation.length());
+					operation += "+";
 					SYMBOL = "+";
 				}
 				OP2 = "";
 				RESULT = false;
-				display.setText(OPERATION);
+				display.setText(operation);
 			}
 		});
 		
@@ -462,17 +462,17 @@ public class Calcolatrice extends Application{
 			@Override
 			public void handle(ActionEvent event) {
 				if(SYMBOL.equals("")) {
-					OPERATION += "-";
+					operation += "-";
 					SYMBOL = "-";
 				}
 				else {
-					OPERATION = OPERATION.substring(0, OPERATION.length());
-					OPERATION += "-";
+					operation = operation.substring(0, operation.length());
+					operation += "-";
 					SYMBOL = "-";
 				}
 				OP2 = "";
 				RESULT = false;
-				display.setText(OPERATION);
+				display.setText(operation);
 			}
 		});
 		
@@ -481,16 +481,16 @@ public class Calcolatrice extends Application{
 			@Override
 			public void handle(ActionEvent event) {
 				if(SYMBOL.equals("")) {
-					OPERATION += "*";
+					operation += "*";
 					SYMBOL = "*";
 				}
 				else {
-					OPERATION = OPERATION.substring(0, OPERATION.length());
-					OPERATION += "*";
+					operation = operation.substring(0, operation.length());
+					operation += "*";
 					SYMBOL = "*";
 				OP2 = "";
 				RESULT = false;
-				display.setText(OPERATION);
+				display.setText(operation);
 				}
 			}
 		});
@@ -500,17 +500,17 @@ public class Calcolatrice extends Application{
 			@Override
 			public void handle(ActionEvent event) {
 				if(SYMBOL.equals("")) {
-					OPERATION += "/";
+					operation += "/";
 					SYMBOL = "/";
 				}
 				else {
-					OPERATION = OPERATION.substring(0, OPERATION.length());
-					OPERATION += "/";
+					operation = operation.substring(0, operation.length());
+					operation += "/";
 					SYMBOL = "/";
 				}
 				OP2 = "";
 				RESULT = false;
-				display.setText(OPERATION);
+				display.setText(operation);
 			}
 		});
 		
@@ -518,7 +518,7 @@ public class Calcolatrice extends Application{
 			
 			@Override
 			public void handle(ActionEvent event) {
-				OPERATION = "";
+				operation = "";
 				SYMBOL = "";
 				OP1 = "";
 				OP2 = "";
@@ -532,17 +532,17 @@ public class Calcolatrice extends Application{
 			@Override
 			public void handle(ActionEvent event) {
 				if(SYMBOL.equals("")) {
-					OPERATION += "^";
+					operation += "^";
 					SYMBOL = "^";
 				}
 				else {
-					OPERATION = OPERATION.substring(0, OPERATION.length());
-					OPERATION += "^";
+					operation = operation.substring(0, operation.length());
+					operation += "^";
 					SYMBOL = "^";
 				}
 				OP2 = "";
 				RESULT = false;
-				display.setText(OPERATION);
+				display.setText(operation);
 			}
 		});
 		
@@ -551,18 +551,18 @@ public class Calcolatrice extends Application{
 			@Override
 			public void handle(ActionEvent event) {
 				if(SYMBOL.equals("")) {
-					OPERATION += "√";
+					operation += "√";
 					SYMBOL = "√";
 				}
 				else {
-					OPERATION = OPERATION.substring(0, OPERATION.length());
-					OPERATION += "√";
+					operation = operation.substring(0, operation.length());
+					operation += "√";
 					SYMBOL = "√";
 				}
 				OP2 = OP1;
 				OP1 = "";
 				RESULT = false;
-				display.setText(OPERATION);
+				display.setText(operation);
 			}
 		});
 		
@@ -573,25 +573,25 @@ public class Calcolatrice extends Application{
 				
 				if(!RESULT) {
 					if(!OP1.equals("") || !OP2.equals("")) {
-						if(!SYMBOL.equals("") && (OPERATION.substring(OPERATION.length()-1, OPERATION.length()).equals(SYMBOL))) {
+						if(!SYMBOL.equals("") && (operation.substring(operation.length()-1, operation.length()).equals(SYMBOL))) {
 							SYMBOL = "";
 							OP2 = "";
-							OPERATION = OPERATION.substring(0, OPERATION.length()-1);
+							operation = operation.substring(0, operation.length()-1);
 						}
 						else {
 							if(OP1.length() >= 1 && OP2.length() == 0) {
 								SYMBOL = "";
 								OP1 = OP1.substring(0, OP1.length()-1);
-								OPERATION = OP1;
+								operation = OP1;
 							}
 							else if(!SYMBOL.equals("") && OP2.length() >= 1){
 								OP2 = OP2.substring(0, OP2.length()-1);
-								OPERATION = OPERATION.substring(0, OPERATION.length()-1);
+								operation = operation.substring(0, operation.length()-1);
 							}
 						}
 					}
 					else {
-						OPERATION = "";
+						operation = "";
 						OP1 = "";
 						OP2 = "";
 						SYMBOL = "";
@@ -601,10 +601,10 @@ public class Calcolatrice extends Application{
 					SYMBOL = "";
 					OP2 = "";
 					OP1 = OP1.substring(0, OP1.length()-1);
-					OPERATION = OP1;
+					operation = OP1;
 				}
 				RESULT = false;
-				display.setText(OPERATION);
+				display.setText(operation);
 			}
 		});
 		
