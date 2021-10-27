@@ -1,1 +1,1 @@
- 2javaX	hrsrc/project/Hello.java
+ 2xmlXhr"src/Calculator/.idea/encodings.xml

@@ -1,1 +1,1 @@
- 2javaX©hrsrc/project/Calcolatrice.java
+ 2xmlXhr!src/Calculator/.idea/compiler.xml
