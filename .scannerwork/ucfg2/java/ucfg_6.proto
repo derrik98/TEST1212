@@ -1,0 +1,34 @@
+
+Pproject.Calcolatrice#mul(Ljava/lang/Double;Ljava/lang/Double;)Ljava/lang/String;w
+kC:/Users/danie/Dropbox/Il mio PC (DESKTOP-5PBHKRJ)/Desktop/TEST1212.git/trunk/src/project/Calcolatrice.javaç ç("2"1*ˆ
+2w
+kC:/Users/danie/Dropbox/Il mio PC (DESKTOP-5PBHKRJ)/Desktop/TEST1212.git/trunk/src/project/Calcolatrice.javaè
+ è(·
+ﬁ
+w
+kC:/Users/danie/Dropbox/Il mio PC (DESKTOP-5PBHKRJ)/Desktop/TEST1212.git/trunk/src/project/Calcolatrice.javaè
+ è(,
+%0java.lang.String"-java.lang.String#valueOf(I)Ljava/lang/String;*"
+java.lang.String*
+"""ì
+w
+kC:/Users/danie/Dropbox/Il mio PC (DESKTOP-5PBHKRJ)/Desktop/TEST1212.git/trunk/src/project/Calcolatrice.javaè è(-
+
+%0java.lang.String*ˆ
+1w
+kC:/Users/danie/Dropbox/Il mio PC (DESKTOP-5PBHKRJ)/Desktop/TEST1212.git/trunk/src/project/Calcolatrice.javaí
+ í(·
+ﬁ
+w
+kC:/Users/danie/Dropbox/Il mio PC (DESKTOP-5PBHKRJ)/Desktop/TEST1212.git/trunk/src/project/Calcolatrice.javaí
+ í(%
+%1java.lang.String"-java.lang.String#valueOf(D)Ljava/lang/String;*"
+java.lang.String*
+"""ì
+w
+kC:/Users/danie/Dropbox/Il mio PC (DESKTOP-5PBHKRJ)/Desktop/TEST1212.git/trunk/src/project/Calcolatrice.javaí í(&
+
+%1java.lang.String:
+num1java.lang.Double:
+num2java.lang.DoubleB
+project.Calcolatrice

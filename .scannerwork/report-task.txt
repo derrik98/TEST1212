@@ -1,0 +1,7 @@
+organization=derrik98
+projectKey=derrik98_TEST1212
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.24075
+dashboardUrl=https://sonarcloud.io/dashboard?id=derrik98_TEST1212
+ceTaskId=AXyYeBtj21v3YuZL-NZ7
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXyYeBtj21v3YuZL-NZ7
