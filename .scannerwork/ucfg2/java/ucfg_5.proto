@@ -1,76 +1,48 @@
 
-Pproject.Calcolatrice#exp(Ljava/lang/Double;Ljava/lang/Double;)Ljava/lang/String;S
-GC:/Users/danie/Desktop/TEST1212.git/trunk/src/project/Calcolatrice.javaø ø("3*ß
+Pproject.Calcolatrice#div(Ljava/lang/Double;Ljava/lang/Double;)Ljava/lang/String;S
+GC:/Users/danie/Desktop/TEST1212.git/trunk/src/project/Calcolatrice.java ("2"4"1*‰
 2S
-GC:/Users/danie/Desktop/TEST1212.git/trunk/src/project/Calcolatrice.javaú
- ú(Ë
-È
+GC:/Users/danie/Desktop/TEST1212.git/trunk/src/project/Calcolatrice.java†
+ †(½
+º
 S
-GC:/Users/danie/Desktop/TEST1212.git/trunk/src/project/Calcolatrice.javaú ú(2
-%2double"java.lang.Math#pow(DD)D*"
-java.lang.Math*
-
-num1java.lang.Double*
-
-num2java.lang.DoubleÅ
-Â
+GC:/Users/danie/Desktop/TEST1212.git/trunk/src/project/Calcolatrice.java†
+ †(,
+%1java.lang.String"-java.lang.String#valueOf(I)Ljava/lang/String;*"
+java.lang.String*
+"""o
 S
-GC:/Users/danie/Desktop/TEST1212.git/trunk/src/project/Calcolatrice.javaú
- ú(3
-%3java.lang.String"-java.lang.String#valueOf(I)Ljava/lang/String;*"
-java.lang.String*
-
-%2double"o
-S
-GC:/Users/danie/Desktop/TEST1212.git/trunk/src/project/Calcolatrice.javaú ú(4
+GC:/Users/danie/Desktop/TEST1212.git/trunk/src/project/Calcolatrice.java† †(-
 
-%3java.lang.String*ü
-3S
-GC:/Users/danie/Desktop/TEST1212.git/trunk/src/project/Calcolatrice.javaù ù(	Ë
-È
+%1java.lang.String*ç
+4S
+GC:/Users/danie/Desktop/TEST1212.git/trunk/src/project/Calcolatrice.javaƒ
+ ƒ(›
+˜
 S
-GC:/Users/danie/Desktop/TEST1212.git/trunk/src/project/Calcolatrice.javaù ù(
-%0double"java.lang.Math#pow(DD)D*"
-java.lang.Math*
-
-num1java.lang.Double*
-
-num2java.lang.DoubleË
-È
+GC:/Users/danie/Desktop/TEST1212.git/trunk/src/project/Calcolatrice.javaƒ
+ ƒ(
+%0java.lang.String"__id*#*!
+project.Calcolatrice"
+error"o
 S
-GC:/Users/danie/Desktop/TEST1212.git/trunk/src/project/Calcolatrice.javaù" ù(6
-%1double"java.lang.Math#pow(DD)D*"
-java.lang.Math*
-
-num1java.lang.Double*
-
-num2java.lang.Double*
-2
-1*ß
+GC:/Users/danie/Desktop/TEST1212.git/trunk/src/project/Calcolatrice.javaƒ ƒ(
+
+%0java.lang.String*‰
 1S
-GC:/Users/danie/Desktop/TEST1212.git/trunk/src/project/Calcolatrice.javaı
- ı(Ë
-È
+GC:/Users/danie/Desktop/TEST1212.git/trunk/src/project/Calcolatrice.java‰
+ ‰(½
+º
 S
-GC:/Users/danie/Desktop/TEST1212.git/trunk/src/project/Calcolatrice.javaı ı(-
-%4double"java.lang.Math#pow(DD)D*"
-java.lang.Math*
-
-num1java.lang.Double*
-
-num2java.lang.DoubleÅ
-Â
+GC:/Users/danie/Desktop/TEST1212.git/trunk/src/project/Calcolatrice.java‰
+ ‰(%
+%2java.lang.String"-java.lang.String#valueOf(D)Ljava/lang/String;*"
+java.lang.String*
+"""o
 S
-GC:/Users/danie/Desktop/TEST1212.git/trunk/src/project/Calcolatrice.javaı
- ı(.
-%5java.lang.String"-java.lang.String#valueOf(D)Ljava/lang/String;*"
-java.lang.String*
-
-%4double"o
-S
-GC:/Users/danie/Desktop/TEST1212.git/trunk/src/project/Calcolatrice.javaı ı(/
+GC:/Users/danie/Desktop/TEST1212.git/trunk/src/project/Calcolatrice.java‰ ‰(&
 
-%5java.lang.String:
+%2java.lang.String:
 num1java.lang.Double:
 num2java.lang.DoubleB
 project.Calcolatrice

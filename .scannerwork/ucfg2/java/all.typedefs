@@ -22,10 +22,7 @@ hashCode()java.lang.Object#hashCode()I
 <init>()project.JavaFX#<init>()VF
 main([Ljava/lang/String;))project.JavaFX#main([Ljava/lang/String;)V 
 EventHandlerjava.lang.Object%
-Lproject/JavaFX$1000;EventHandler”
-&com.daniele.ispw.calculator.CalculatorApplication<
-<init>()0com.daniele.ispw.calculator.Calculator#<init>()V^
-main([Ljava/lang/String;)Acom.daniele.ispw.calculator.Calculator#main([Ljava/lang/String;)Vé
+Lproject/JavaFX$1000;EventHandleré
 project.CalcolatriceApplication[
 radq(Ljava/lang/Double;)?project.Calcolatrice#radq(Ljava/lang/Double;)Ljava/lang/String;}
 )exp(Ljava/lang/Double;Ljava/lang/Double;)Pproject.Calcolatrice#exp(Ljava/lang/Double;Ljava/lang/Double;)Ljava/lang/String;}

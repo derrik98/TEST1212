@@ -1,2 +1,1 @@
-TEST1212 :(	,(-'%!*."
-) $#B($https://github.com/derrik98/TEST1212B+'https://travis-ci.org/derrik98/TEST1212B/+https://github.com/derrik98/TEST1212/issuesB($https://github.com/derrik98/TEST1212Rderrik98_TEST1212
+TEST1212 :B($https://github.com/derrik98/TEST1212B+'https://travis-ci.org/derrik98/TEST1212B/+https://github.com/derrik98/TEST1212/issuesB($https://github.com/derrik98/TEST1212Rderrik98_TEST1212
