@@ -10,7 +10,6 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.HBox;
-//import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 public class JavaFX extends Application{
@@ -31,7 +30,6 @@ public class JavaFX extends Application{
 		stage.setTitle("Prima prova");
 		label1 = new Label("la mia prma prova");
 		HBox root = new HBox();
-		//VBox root1 = new VBox();
 		
 		Scene scene = new Scene(root, 500, 500);
 		stage.setScene(scene);
@@ -43,7 +41,7 @@ public class JavaFX extends Application{
 			public void handle(ActionEvent event) {
 				BasicConfigurator.configure();
 				logger.info("ciao");
-				System.out.println("ciao");
+				logger.log("ciao");
 				label1.setText("Try" + i);
 				i++;
 			}

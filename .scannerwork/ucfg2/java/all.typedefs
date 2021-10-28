@@ -21,8 +21,8 @@ hashCode()java.lang.Object#hashCode()I
 project.JavaFXApplication$
 <init>()project.JavaFX#<init>()VF
 main([Ljava/lang/String;))project.JavaFX#main([Ljava/lang/String;)V 
-EventHandlerjava.lang.Object%
-Lproject/JavaFX$1000;EventHandleré
+EventHandlerjava.lang.Object$
+Lproject/JavaFX$934;EventHandleré
 project.CalcolatriceApplication[
 radq(Ljava/lang/Double;)?project.Calcolatrice#radq(Ljava/lang/Double;)Ljava/lang/String;}
 )exp(Ljava/lang/Double;Ljava/lang/Double;)Pproject.Calcolatrice#exp(Ljava/lang/Double;Ljava/lang/Double;)Ljava/lang/String;}
